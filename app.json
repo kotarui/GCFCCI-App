@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Church Update Tracker",
+    "slug": "church-update-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.church.updatetracker"
+    },
+    "android": {
+      "package": "com.church.updatetracker",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_MEDIA_IMAGES"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      "expo-image-picker",
+      "expo-media-library"
+    ],
+    "scheme": "church-update-tracker",
+    "extra": {
+      "eas": {
+        "projectId": "47e96076-4d1d-4131-bbb2-62cf1f3357ce"
+      }
+    }
+  }
+}
